@@ -24,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
             // hotfix 1
+            // Develop 1.0 commit 1
             // Develop 0.95 commit 1
         }
     }

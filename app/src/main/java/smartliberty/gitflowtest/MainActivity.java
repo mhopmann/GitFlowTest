@@ -24,6 +24,8 @@ public class MainActivity extends ActionBarActivity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
             // hotfix 1
+            // Develop 1.0 commit 1
+            // Develop 0.95 commit 1
         }
     }
 
@@ -34,6 +36,8 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         // First develop commit - hotfix 0.95.1
         // Third develop commit
+        // Develop 0.95 commit 2
+        // Develop 1.0 commit 3
         return true;
     }
 
@@ -49,6 +53,9 @@ public class MainActivity extends ActionBarActivity {
             // hotfix 0.95.2 - 2
             return true;
         }
+
+        // Develop 1.0 commit 2
+        // Develop 1.0 commit 4
 
         // First Maps commit
         // Release 0.9 bugfix 1 - hotfix 0.95.2

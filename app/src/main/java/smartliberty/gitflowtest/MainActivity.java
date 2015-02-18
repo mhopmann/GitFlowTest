@@ -18,6 +18,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Release 0.9 bugfix 2
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
@@ -30,6 +31,8 @@ public class MainActivity extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        // First develop commit
+        // Third develop commit
         return true;
     }
 
@@ -45,6 +48,8 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
 
+        // First Maps commit
+        // Release 0.9 bugfix 1
         return super.onOptionsItemSelected(item);
     }
 
@@ -60,6 +65,7 @@ public class MainActivity extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            // Second develop commit
             return rootView;
         }
     }

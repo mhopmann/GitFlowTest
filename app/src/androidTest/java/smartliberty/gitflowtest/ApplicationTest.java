@@ -14,4 +14,6 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
 
     // hotfix 2
+
+    // Release 0.95 bugfix
 }

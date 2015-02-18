@@ -55,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
         }
 
         // Develop 1.0 commit 2
-
+        // Develop 1.0 commit 4
 
         // First Maps commit
         // Release 0.9 bugfix 1 - hotfix 0.95.2

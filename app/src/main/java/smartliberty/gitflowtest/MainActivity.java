@@ -35,6 +35,7 @@ public class MainActivity extends ActionBarActivity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         // First develop commit
         // Third develop commit
+        // Develop 0.95 commit 2
         return true;
     }
 

@@ -18,6 +18,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Release 0.9 bugfix 2
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
@@ -48,6 +49,7 @@ public class MainActivity extends ActionBarActivity {
         }
 
         // First Maps commit
+        // Release 0.9 bugfix 1
         return super.onOptionsItemSelected(item);
     }
 

@@ -37,6 +37,7 @@ public class MainActivity extends ActionBarActivity {
         // First develop commit - hotfix 0.95.1
         // Third develop commit
         // Develop 0.95 commit 2
+        // Develop 1.0 commit 3
         return true;
     }
 

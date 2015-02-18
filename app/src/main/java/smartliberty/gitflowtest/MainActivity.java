@@ -48,6 +48,7 @@ public class MainActivity extends ActionBarActivity {
         }
 
         // First Maps commit
+        // Release 0.9 bugfix 1
         return super.onOptionsItemSelected(item);
     }
 

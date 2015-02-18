@@ -49,6 +49,7 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            // hotfix 0.95.2 - 2
             return true;
         }
 
@@ -56,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
 
 
         // First Maps commit
-        // Release 0.9 bugfix 1
+        // Release 0.9 bugfix 1 - hotfix 0.95.2
         return super.onOptionsItemSelected(item);
     }
 
